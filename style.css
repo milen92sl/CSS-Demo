@@ -1,0 +1,48 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+        color: darkorange; 
+        font-size: 24px;
+}
+    h1{
+        color:dimgray;
+}  
+
+.quoted-text {
+    font-style: italic;
+    font-size: 18px;
+    color: gray;
+}
+#special-quote {
+background-color: yellowgreen;
+}
+
+
+.slogan{
+    font-weight: bold;
+    
+}
+.navigation{
+    list-style: none;
+}
+.navigation li{
+display: inline-flex;
+}
+.navigation a{
+    text-decoration:none;
+    padding: 10px;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid red;
+    margin: 3px;
+}
+.navigation a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+    color: tomato;
+    transform-style: (1.2);
+}
